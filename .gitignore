@@ -1,9 +1,30 @@
-# Python
+```
+# Dependencies
 __pycache__/
-*.py[cod]
-*$py.class
-*.so
+*.pyc
+*.pyo
+*.pyd
 .Python
+venv/
+.venv/
+env/
+ENV/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.pytest_cache/
+.hypothesis/
+.DS_Store
+Thumbs.db
+
+# Build and distribution artifacts
 build/
 develop-eggs/
 dist/
@@ -20,40 +41,26 @@ wheels/
 .installed.cfg
 *.egg
 
-# Virtual environments
-venv/
-env/
-ENV/
-.venv/
+# Blender specific
+blender-mcp/blender_addon/blender_mcp_addon/__pycache__/
 
-# IDE
-.idea/
+# Environment variables
+.env
+.env.local
+.env.*
+
+# IDE and editor files
 .vscode/
+.idea/
 *.swp
 *.swo
 *~
+.DS_Store
+Thumbs.db
 
 # Testing
+.tests/
 .pytest_cache/
 .coverage
 htmlcov/
-.tox/
-
-# Type checking
-.mypy_cache/
-.dmypy.json
-dmypy.json
-
-# Output files
-*.blend1
-*.glb
-*.fbx
-*.png
-*.jpg
-
-# Logs
-*.log
-
-# OS
-.DS_Store
-Thumbs.db
+```
